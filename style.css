@@ -6,7 +6,7 @@
 body {
     background-color: #f5f1e8;
     color: #343b30;
-    font-family: Georgia, serif;
+    font-family: 'Alegreya', serif;
 }
 header {
     padding: 25px 7%;
@@ -25,6 +25,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 .nav-links a {
     color: #343b30;
@@ -54,16 +55,20 @@ nav {
     margin-bottom: 30px;
 }
 .hero h1 {
-    font-size: 65px;
-    font-weight: normal;
-    max-width: 700px;
-    line-height: 1.1;
+    font-size: 76px;
+    font-weight: 500;
+    max-width: 750px;
+    line-height: 1.05;
     margin-bottom: 25px;
 }
 .intro {
-    font-family: Arial, sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 11px;
     letter-spacing: 3px;
     color: #8a759d;
     margin-bottom: 25px;
+    font-weight: 600;
+}
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
 }
