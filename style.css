@@ -90,3 +90,51 @@ h1, h2, h3 {
     object-fit: cover;
     display: block;
 }
+.destinations {
+    padding: 100px 7%;
+}
+.section-heading h2 {
+     font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.section-heading > p:last-child {
+    color: #777568;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.destination-card img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+.card-info {
+    padding-top: 20px;
+}
+.card-info p:first-child {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #8a759d;
+}
+.card-info p {
+    color: #777568;
+    margin-bottom: 15px;
+}
+.card-info a {
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #626448;
+}
+.card-info h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 8px 0;
+}
