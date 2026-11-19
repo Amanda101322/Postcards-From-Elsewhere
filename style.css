@@ -138,3 +138,67 @@ h1, h2, h3 {
     font-weight: 500;
     margin: 8px 0;
 }
+.closing-section {
+    background-color: #343b30;
+    color: #f5f1e8;
+    padding: 65px 7% 22px;
+}
+.closing-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 45px;
+}
+.footer-bottom {
+    border-top: 1px solid #8a759d;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.footer-links {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.closing-heading.intro {
+    color: #edc89b;
+}
+.closing-heading h2 {
+    font-size: 46px;
+    max-width: 480px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.closing-text p {
+    color: #d0cbbf;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+.closing-text .closing-signoff {
+    color: #c2898b;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.footer-logo {
+    color: #f5f1e8;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+}
+.footer-links a {
+    color: #d0cbbf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.footer-links a:hover {
+    color: #8ba0c2;
+}
