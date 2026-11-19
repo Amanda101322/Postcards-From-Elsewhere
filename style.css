@@ -7,6 +7,7 @@ body {
     background-color: #f5f1e8;
     color: #343b30;
     font-family: 'Alegreya', serif;
+    position: relative;
 }
 header {
     padding: 25px 7%;
@@ -217,4 +218,17 @@ h1, h2, h3 {
     font-size: 32px;
     font-weight: 400;
     line-height: 1.1;
+}
+.page-content {
+    position: relative;
+    margin-bottom: 0;
+    background-color: #f5f1e8;
+    z-index: 2;
+}
+.closing-section {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
