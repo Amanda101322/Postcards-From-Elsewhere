@@ -139,66 +139,82 @@ h1, h2, h3 {
     margin: 8px 0;
 }
 .closing-section {
-    background-color: #343b30;
-    color: #f5f1e8;
-    padding: 65px 7% 22px;
-}
-.closing-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-    padding-bottom: 45px;
+    background-color: #eae5d9;
+    padding: 45px 7% 20px;
+    border-top: 1px solid #d5cbbb;
 }
 .footer-bottom {
-    border-top: 1px solid #8a759d;
-    padding-top: 20px;
+    border-top: 1px dashed #c9c0ae;
+    padding-top: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .footer-links {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
 }
-.closing-heading.intro {
-    color: #edc89b;
-}
-.closing-heading h2 {
-    font-size: 46px;
-    max-width: 480px;
-    font-weight: 500;
-    line-height: 1.1;
-}
-.closing-text p {
-    color: #d0cbbf;
-    font-size: 16px;
-    line-height: 1.7;
-    margin-bottom: 14px;
-}
-.closing-text .closing-signoff {
-    color: #c2898b;
-    margin-top: 20px;
-    font-style: italic;
-    font-size: 22px;
-    font-family: 'Cormorant Garamond', serif;
-}
 .footer-logo {
-    color: #f5f1e8;
+    color: #343b30;
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 23px;
+    font-size: 19px;
+    font-weight: 600;
 }
 .footer-links a {
-    color: #d0cbbf;
+    color: #777568;
     text-decoration: none;
-    transition: color 0.3s ease;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .footer-links a:hover {
-    color: #8ba0c2;
+    color: #8a795d;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 35px;
+}
+.footer-message h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+.footer-message.intro{
+    color: #8a759d;
+    margin-bottom: 12px;
+}
+.postmark {
+    width: 105px;
+    height: 105px;
+    border: 1px solid #a47d67;
+    flex-shrink: 0;
+    transform: rotate(10deg);
+    border-radius: 50%;
+    color: #a47d67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.footer-message>p:last-child {
+    color: #777568;
+    font-size: 15px;
+}
+.postmark span {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1.5px;
+}
+.postmark strong {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.1;
 }
